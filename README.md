@@ -11,6 +11,14 @@ Explain your stakeholder audience here
 
 ## Modeling
 
+Describe and justify the process for analyzing or modeling the data.
+
+Questions to consider:
+
+How did you analyze or model the data?
+How did you iterate on your initial approach to make it better?
+Why are these choices appropriate given the data and the business problem?
+
 ## Regression Results
 
 ## Conclusions
