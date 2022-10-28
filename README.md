@@ -43,7 +43,8 @@ Square Feet of Neighbors’ Houses: **No specific square footage**
 Square Feet of Neighbors’ Houses Lots: **No specific square footage**                                            
 
 
-#### Question: In which zip code should the stakeholders purchase their home based on the criteria listed?
+#### Question
+In which zip code should the stakeholders purchase their home based on the criteria listed?
 
 The model produced the following prices:
 
