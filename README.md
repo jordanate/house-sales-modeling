@@ -50,7 +50,7 @@ Includes only the continuous and discrete numerical values:
 
 **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
 
-
+![baseline_model]https://github.com/jordanate/phase-2-project/blob/main/images/baseline%20model.png
 
 ### Final Model
 
