@@ -21,23 +21,10 @@ The data that I use for my projects comes from the a dataset about King County, 
 
 ## Regression Results
 
-The model produced the following prices:
 
-Zip code 98032: $182,296
 
-Zip code 98168: $195,324
 
-Zip code 98002: $181,858
-
-These prices are all within the stakeholders' range, but the error of the model is plus or minus $52,423 on average
-
-While all of these prices are still under $250,000 when adding the error, the safest decision would be to aim for a house in the zip code 98002 as it has the lowest predicted price. Furthermore, if the stakeholders decide to pursue a house in the zip code 98002 and indeed end up paying less than their budget, they can use the rest of the money in their budget to purchase a swing set or tree house for their grandchildren.
-
-## Conclusions
-
-### Recommendations
-
-**Stakeholders criteria**
+### Stakeholders criteria
 Budget: **$250000**
 
 Floors: **1**
@@ -70,6 +57,24 @@ Square Feet of Neighbors’ Houses: **No specific square footage**
 
 Square Feet of Neighbors’ Houses Lots: **No specific square footage**
 
+
+#### Question: In which zip code should the stakeholders purchase their home based on the criteria listed?
+
+The model produced the following prices:
+
+Zip code 98032: $182,296
+
+Zip code 98168: $195,324
+
+Zip code 98002: $181,858
+
+These prices are all within the stakeholders' range, but the error of the model is plus or minus $52,423 on average
+
+While all of these prices are still under $250,000 when adding the error, the safest decision would be to aim for a house in the zip code 98002 as it has the lowest predicted price. Furthermore, if the stakeholders decide to pursue a house in the zip code 98002 and indeed end up paying less than their budget, they can use the rest of the money in their budget to purchase a swing set or tree house for their grandchildren.
+
+## Conclusions
+
+### Recommendations
 
 The model produced the following prices:
 
