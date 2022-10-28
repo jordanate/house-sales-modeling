@@ -1,20 +1,56 @@
 # Phase 2 Project
 
+![king_county_.jpg](https://github.com/jordanate/phase-2-project/blob/main/images/king_county_.jpg)
+
 **By**: Jordana Tepper
 
 ## Overview
 
 ## Business Problem
 
-Explain your stakeholder audience here
+An elderly couple, Bruce and Carol, are from King County, Washington and want to downsize from their current home as there is no need for them to deal with the maintenance of a large house anymore. Nevertheless, in the past few years, Bruce and Carol have become grandparents and want a home in which there is enough room for their two grandchildren to sleep over and play outside. Bruce and Carol have a set criteria for what they want in a house but do not know where in King County they should look to fulfill such preferences.
+
+Therefore, the goal of this project is to build a predictive model based on real data from house sales in King County, Washington that can answer the following question: **In which zip code should the stakeholders purchase their home based on the criteria listed?**
 
 ## Data
 
-The data that I use for my projects comes from the a dataset about King County, Washington House Sales in 2014-2015. This source includes information such as square footage, number of bedrooms, number of bathrooms, zip code, number of floors, condition of the house, and quality of view.
+The data that I use for my projects comes from a dataset from Kaggle about King County, Washington House Sales in 2014-2015. This source includes information such as square footage, number of bedrooms, number of bathrooms, zip code, number of floors, condition of the house, and quality of view.
 
 ## Modeling
 
+After doing some data cleaning, I perform a 70%-30% Train-Test Split on the data with price as the target variable and all other variables as the predictors. Next, I create multiple linear regression models. 
+
+The process that I use to reach my final model involve the following steps:
+* Making categorical columns more interpretable (ex: date, zip code, condition) through One Hot Encoding and Ordinal Encoding
+* Standard Scaling my predictor variables
+* Normalizing my target variable
+* Checking for predictors with the strongest and weakest impacts on price
+* Looking at relationships between predictors
+* Consistently checking the error
+
 ### Baseline Model
+
+Includes only the continuous and discrete numerical values:
+* 'bedrooms' 
+* 'bathrooms'
+* 'sqft_living'
+* 'sqft_lot'
+* 'floors'
+* sqft_above'
+* 'yr_built'
+* 'yr_renovated'
+* 'lat'
+* 'long'
+* 'sqft_living15'
+* 'sqft_lot15'
+* 'month_sold'
+* 'year_sold'
+
+**Adjusted R-squared**: 60.68%
+
+**Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
+
+
 
 ### Final Model
 
@@ -24,7 +60,7 @@ The data that I use for my projects comes from the a dataset about King County, 
 
 ### Recommendations
 
-#### Stakeholders criteria
+#### Stakeholders' criteria
 Budget: **$250000**                                               
 Floors: **1**                                            
 Square Feet of House: **2000 SF**                                            
