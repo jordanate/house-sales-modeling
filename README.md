@@ -26,21 +26,21 @@ The data that I use for my projects comes from the a dataset about King County, 
 
 ### Stakeholders criteria
 Budget: **$250000**                                               
-Floors: **1**
-Square Feet of House: **2000 SF**
-Square Feet of Lot: **6000 SF**
-Bedrooms: **3**
-Bath: **2**
-Basement?: **No**
-Condition (0-4): **Good (3)**
-Grade (0-7): **Good (4)**
-View Quality (0-4): **None (0)**
-Preferred Month of Purchase: **March**
-Waterfront?: **No**
-Renovated?: **No**
-Year Built: **No year in particular**
-Square Feet of Neighbors’ Houses: **No specific square footage**
-Square Feet of Neighbors’ Houses Lots: **No specific square footage**
+Floors: **1**                                            
+Square Feet of House: **2000 SF**                                            
+Square Feet of Lot: **6000 SF**                                            
+Bedrooms: **3**                                            
+Bath: **2**                                            
+Basement?: **No**                                            
+Condition (0-4): **Good (3)**                                            
+Grade (0-7): **Good (4)**                                            
+View Quality (0-4): **None (0)**                                            
+Preferred Month of Purchase: **March**                                            
+Waterfront?: **No**                                            
+Renovated?: **No**                                            
+Year Built: **No year in particular**                                            
+Square Feet of Neighbors’ Houses: **No specific square footage**                                            
+Square Feet of Neighbors’ Houses Lots: **No specific square footage**                                            
 
 
 #### Question: In which zip code should the stakeholders purchase their home based on the criteria listed?
