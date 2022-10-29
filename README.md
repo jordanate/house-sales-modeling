@@ -54,7 +54,7 @@ Includes only the continuous and discrete numerical values:
 
 ### Final Model
 
-The final model, Model 7, includes existing from the original dataset as well as new/encoded columns:                                         
+The final model, Model 7, includes existing columns from the original dataset as well as new/encoded columns:                                         
 
 **Existing columns**:                                                       
 * 'bedrooms' 
@@ -90,7 +90,15 @@ The final model, Model 7, includes existing from the original dataset as well as
 ![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
 
 ## Regression Results
-hhh
+
+### Regression Plot
+
+### Checking for Normality of Residuals
+
+### Plotting residuals and Assessing Homoscedasticity
+
+### Interpreting Strong Predictors
+
 ## Conclusions
 
 ### Recommendations
