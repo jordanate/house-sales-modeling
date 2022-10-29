@@ -94,7 +94,7 @@ While all of these prices are still under $250,000 when adding the error, the sa
 
 ### Next Steps
 
-Potential next steps could be analyzing data about nearby parks, restaurants, hospitals, and place of worship (ex: Synagogues, Churches, Mosques) and then incorporating such information into the predictive model. For example, if the stakeholder wanted a house within 5 miles of a hospital along with all of the criteria listed above, I could use the improved model to predict the price of such a house.
+Potential next steps could be analyzing data about nearby parks, restaurants, hospitals, and place of worship (ex: Synagogues, Churches, Mosques) and then incorporating such information into the predictive model. For example, if the stakeholder wanted a house within 5 miles of a hospital along with all of the criteria listed above, I could use the improved model to predict the price of such a house. It would also be important to investigate the level of crime in each zip code and factor this into the model as well. Some questions that this might bring about are, "What level of crime categorizes a neighborhood as unsafe? Does a high level of crime decrease the price?"
 
 ## For More Information
 
