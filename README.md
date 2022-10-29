@@ -92,11 +92,17 @@ The final model, Model 7, includes existing columns from the original dataset as
 ## Regression Results
 
 ### Regression Plot
+![regression_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/regression_plot.png)
+
+The regression plot shows an overall linear relationship between the true price values and the predicted price values thus indicating that the model is relatively accurate.
 
 ### Checking for Normality of Residuals
+![qq_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/qq-plot.png)
+
+This Q-Q plot indicates that the residuals are normally distributed, and thus, the model does not violates the assumption of normality.
 
 ### Plotting residuals and Assessing Homoscedasticity
-
+![resid_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/residual_plot.png)
 ### Interpreting Strong Predictors
 
 ## Conclusions
