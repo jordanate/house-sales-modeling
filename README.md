@@ -50,7 +50,7 @@ Includes only the continuous and discrete numerical values:
 * **Adjusted R-squared**: 60.68%
 
 * **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
-![baseline_model.png](https://github.com/jordanate/phase-2-project/blob/main/images/baseline_model.png)
+![baseline_model_.png](https://github.com/jordanate/phase-2-project/blob/main/images/baseline_model_.png)
 
 ### Final Model
 
