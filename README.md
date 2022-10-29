@@ -46,11 +46,10 @@ Includes only the continuous and discrete numerical values:
 * 'month_sold'
 * 'year_sold'
 
-#### Metrics:
-**Adjusted R-squared**: 60.68%
+#### Metrics
+* **Adjusted R-squared**: 60.68%
 
-**Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
-
+* **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
 ![baseline_model.png](https://github.com/jordanate/phase-2-project/blob/main/images/baseline_model.png)
 
 ### Final Model
@@ -84,12 +83,11 @@ The final model, Model 7, includes existing from the original dataset as well as
 * 'grade' which ranks the overall grade of the house on a 0-7 scale             
 * 'condition' which ranks the overall condition of the house on a 0-4 scale               
 
-#### Metrics:
-**Adjusted R-squared**: 85.51%
+#### Metrics
+* **Adjusted R-squared**: 85.51%
 
-**Error**: _MAE_: 52423.22 USD, _RMSE_: 74226.45 USD
-
-![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
+* **Error**: _MAE_: 52423.22 USD, _RMSE_: 74226.45 USD 
+* ![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
 
 ## Regression Results
 
