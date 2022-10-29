@@ -46,6 +46,7 @@ Includes only the continuous and discrete numerical values:
 * 'month_sold'
 * 'year_sold'
 
+#### Metrics:
 **Adjusted R-squared**: 60.68%
 
 **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
@@ -53,6 +54,42 @@ Includes only the continuous and discrete numerical values:
 ![baseline_model.png](https://github.com/jordanate/phase-2-project/blob/main/images/baseline_model.png)
 
 ### Final Model
+
+The final model, Model 7, includes existing from the original dataset as well as new/encoded columns:                                         
+
+**Existing columns**:                                                       
+* 'bedrooms' 
+* 'bathrooms'
+* 'sqft_living'
+* 'sqft_lot'
+* 'floors'
+* sqft_above'
+* 'yr_built'
+* 'lat'
+* 'long'
+* 'sqft_living15'
+* 'sqft_lot15'
+
+**New columns**:                                    
+* 'basement' where '0' = No basement and '1' = Yes basement                   
+* 'renovations' where '0' = Has not been renovated and '1' = Has been renovated               
+
+**One Hot Encoded columns**:
+* 'zipcode' which has 68 columns and 1 reference category
+* 'waterfront' which 1 column ('waterfront_YES) and 1 reference category ('waterfront_NO')             
+* 'month_sold' which has 11 columns (2 (February) - 12 (December)) with 1 column (1 (January) as the reference category                               
+                    
+**Ordinal Encoded columns**:                            
+* 'view' which ranks the quality of the view on a 0-4 scale                 
+* 'grade' which ranks the overall grade of the house on a 0-7 scale             
+* 'condition' which ranks the overall condition of the house on a 0-4 scale               
+
+#### Metrics:
+**Adjusted R-squared**: 85.51%
+
+**Error**: _MAE_: 52423.22 USD, _RMSE_: 74226.45 USD
+
+![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
 
 ## Regression Results
 
