@@ -91,10 +91,13 @@ These prices are all within the stakeholders' range, but the error of the model 
 
 While all of these prices are still under $250,000 when adding the error, the safest decision would be to aim for a house in the zip code 98002 as it has the lowest predicted price. Furthermore, if the stakeholders decide to pursue a house in the zip code 98002 and indeed end up paying less than their budget, they can use the rest of the money in their budget to purchase a swing set or tree house for their grandchildren.
 
+### Limitations
+
+A major limitation of my model is the **recency of data**. As I mentioned, the data in this project comes from house sales in King County, Washington from 2014-2015. Therefore, my model is missing 7 to 8 years of information in regard to the evolution of real estate. Furthermore, COVID-19 had major impacts on real estate trends, but unfortunately, such patterns cannot be represented through my model. If possible, I would like to access more recent information about house sales in King County, Washington to improve my model.
 
 ### Next Steps
 
-Potential next steps could be analyzing data about nearby parks, restaurants, hospitals, and place of worship (ex: Synagogues, Churches, Mosques) and then incorporating such information into the predictive model. For example, if the stakeholder wanted a house within 5 miles of a hospital along with all of the criteria listed above, I could use the improved model to predict the price of such a house. It would also be important to investigate the level of crime in each zip code and factor this into the model as well. Some questions that this might bring about are, "What level of crime categorizes a neighborhood as unsafe? Does a high level of crime decrease the price?"
+In addition to adding in more recent data to my model, potential next steps could be analyzing data about nearby parks, restaurants, hospitals, and place of worship (ex: Synagogues, Churches, Mosques) and then incorporating such information into the predictive model. For example, if the stakeholder wanted a house within 5 miles of a hospital along with all of the criteria listed above, I could use the improved model to predict the price of such a house. It would also be important to investigate the level of crime in each zip code and factor this into the model as well. Some questions that this might bring about are, "What level of crime categorizes a neighborhood as unsafe? Does a high level of crime decrease the price?"
 
 ## For More Information
 
