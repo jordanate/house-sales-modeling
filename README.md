@@ -49,7 +49,7 @@ Includes only the continuous and discrete numerical values:
 #### Metrics
 * **Adjusted R-squared**: 60.68%
 
-* **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
+* **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD 
 ![baseline_model.png](https://github.com/jordanate/phase-2-project/blob/main/images/baseline_model.png)
 
 ### Final Model
@@ -87,7 +87,7 @@ The final model, Model 7, includes existing from the original dataset as well as
 * **Adjusted R-squared**: 85.51%
 
 * **Error**: _MAE_: 52423.22 USD, _RMSE_: 74226.45 USD 
-* ![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
+![model_7.png](https://github.com/jordanate/phase-2-project/blob/main/images/model_7.png)
 
 ## Regression Results
 
