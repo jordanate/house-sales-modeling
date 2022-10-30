@@ -166,7 +166,7 @@ In addition to adding in more recent data to my model, potential next steps coul
 ## For More Information
 
 For a full analysis, please look at my [Jupyter Notebook](./phase-2-project-notebook.ipynb)
-<br /> For a more concise summary, please review my [presentation]
+<br /> For a more concise summary, please review my [presentation](https://github.com/jordanate/phase-2-project/blob/main/presentation.pdf)
 
 <br />
 For any additional questions, please contact Jordana Tepper at <a href="mailto:jtepper724@gmail.com">jtepper724@gmail.com</a> 
