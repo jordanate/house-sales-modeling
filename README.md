@@ -132,11 +132,17 @@ This residual plot indicates that overall the residuals are homoscedastic (i.e. 
 
 Compared to houses that are not on a waterfront, we see an associated increase of about 67.37% in price for houses that are on a waterfront.
 
+![price_x_waterfront.png](https://github.com/jordanate/phase-2-project/blob/main/images/price_x_waterfront.png)
+
+_Note_: The graph above does not depict an _exact_ 67.37% increase.
+
 #### Latitude and Longitude (predictor names: 'lat' and 'long)
 
 For every increase in 1 standard deviation of latitude, price increases by 22%. Similarly, for every increase in 1 standard deviation of longitude, price decreases by 19.14%.
 
-Note: Increase latitude means going more north, and increase in longitude means going more east. Therefore, the most expensive houses should be in the northwest of King County and the least expensive houses should be in the southeast of King County.
+![price_x_lat-long.png](https://github.com/jordanate/phase-2-project/blob/main/images/price_x_lat-long.png)
+
+_Note_: Increase latitude means going more north, and increase in longitude means going more east. Therefore, the most expensive houses should be in the northwest of King County and the least expensive houses should be in the southeast of King County.
 
 ## Conclusions
 
