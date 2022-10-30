@@ -6,17 +6,17 @@
 
 ## Overview
 
-This project analyzes existing data about house sales in King County, Washington from 2014 - 2015 in order to develop a predictive model that can aid a stakeholder in determining what zip code they should buy a house in based on their budget and criteria for their new home. The dataset used in this project includes information about various aspects of a home such as the number of bedrooms, zip code, and square footage. After utilizing the process of exploratory data analysis, I create multiple linear regression models to eventually reach the model with the lowest error. Finally, I provide three zip codes for the stakeholder that best fit their preferences for their home along with the respective predicted prices.
+This project analyzes existing data about house sales in King County, Washington, from 2014 - 2015 in order to develop a predictive model that can aid a stakeholder in determining what zip code they should buy a house in based on their budget and criteria for their new home. The dataset used in this project includes information about various aspects of a home, such as the number of bedrooms, zip code, and square footage. After utilizing the process of exploratory data analysis, I create multiple linear regression models to eventually reach the model with the lowest error. Finally, I provide three zip codes for the stakeholder that best fit their preferences for their home, along with the respective predicted prices.
 
 ## Business Problem
 
-An elderly couple, Bruce and Carol, are from King County, Washington and want to downsize from their current home as there is no need for them to deal with the maintenance of a large house anymore. Nevertheless, in the past few years, Bruce and Carol have become grandparents and want a home in which there is enough room for their two grandchildren to sleep over and play outside. Bruce and Carol have a set criteria for what they want in a house but do not know where in King County they should look to fulfill such preferences.
+An elderly couple, Bruce and Carol, are from King County, Washington, and want to downsize from their current home as there is no need for them to deal with the maintenance of a large house anymore. Nevertheless, in the past few years, Bruce and Carol have become grandparents and want a home with enough room for their two grandchildren to sleep over and play outside. Bruce and Carol have a set criteria for what they want in a house but do not know where in King County they should look to fulfill such preferences.
 
 Therefore, the goal of this project is to build a predictive model based on real data from house sales in King County, Washington that can answer the following question: **In which zip code should the stakeholders purchase their home based on the criteria listed?**
 
 ## Data
 
-The data that I use for my projects comes from a dataset from Kaggle about King County, Washington House Sales in 2014-2015. This source includes information such as square footage, number of bedrooms, number of bathrooms, zip code, number of floors, condition of the house, and quality of view.
+The data that I use for my projects comes from a dataset from Kaggle about King County, Washington House Sales in 2014-2015. This source includes information such as square footage, number of bedrooms, number of bathrooms, zip code, number of floors, condition of the house, and quality of the view.
 
 ## Modeling
 
