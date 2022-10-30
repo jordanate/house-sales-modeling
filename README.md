@@ -6,6 +6,8 @@
 
 ## Overview
 
+This project analyzes existing data about house sales in King County, Washington from 2014 - 2015 in order to develop a predictive model that can aid a stakeholder in determining what zip code they should buy a house in based on their budget and criteria for their new home. The dataset used in this project includes information about various aspects of a home such as the number of bedrooms, zip code, and square footage. After utilizing the process of exploratory data analysis, I create multiple linear regression models to eventually reach the model with the lowest error. Finally, I provide three zip codes for the stakeholder that best fit their preferences for their home along with the respective predicted prices.
+
 ## Business Problem
 
 An elderly couple, Bruce and Carol, are from King County, Washington and want to downsize from their current home as there is no need for them to deal with the maintenance of a large house anymore. Nevertheless, in the past few years, Bruce and Carol have become grandparents and want a home in which there is enough room for their two grandchildren to sleep over and play outside. Bruce and Carol have a set criteria for what they want in a house but do not know where in King County they should look to fulfill such preferences.
@@ -100,7 +102,7 @@ The 4 assumptions of linear regression are as follows:
 * Equal Variance (Homoscedasticity)   
 
 ### Checking for Linearity
-![regression_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/regression_plot.png)
+![regression_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/regresion_plot.png)
 
 The regression plot shows an overall linear relationship between the true price values and the predicted price values thus indicating that the model is relatively accurate.
 
