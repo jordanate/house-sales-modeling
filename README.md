@@ -97,7 +97,7 @@ In this section, I evaluate my model under the 4 assumptions of linear regressio
 
 The 4 assumptions of linear regression are as follows:
 * Linearity   
-* Independence      
+* Independence (Multicollinearity)     
 * Normality (of residuals)      
 * Equal Variance (Homoscedasticity)   
 
@@ -116,6 +116,7 @@ This Q-Q plot indicates that the residuals are normally distributed, and thus, t
 ### Plotting residuals and checking for Homoscedasticity
 ![resid_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/residual_plot.png)
 
+This residual plot indicates that overall the residuals are homoscedastic (i.e. the relationship appears linear and for the most part, there is no fanning of the points). Nevertheless, it is significant to note that as the price predictions increase past the price of around 850,000 USD, the points begin to fan out indicating a potential problem. Therefore, when the model predicts a price larger than 850,000 USD, it is important to take into account this short-coming of the model.
 
 ### Interpreting Strong Predictors
 
