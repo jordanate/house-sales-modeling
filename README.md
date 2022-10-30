@@ -106,7 +106,15 @@ The 4 assumptions of linear regression are as follows:
 
 The regression plot shows an overall linear relationship between the true price values and the predicted price values thus indicating that the model is relatively accurate.
 
-### Checking for Independence
+### Checking for Independence (Multicollinearity)
+
+To check for multicollinearity, I use VIF (Variance Inflation Factor). When using VIF, the general rule is that a value of 5 or higher indicates that multicollinearity with the given variable exists. 
+
+After creating a table of VIF values, I find that 49 of the 99 features in the final model have a VIF value of > 5 which indicates that for each of these variables, multicollinearity with another variable(s) exists. While this is problematic, it is important to note that I was aware of some of the high correlations between predictors in my model (as seen in Model 2), but due to the decreased error that occurred with the inclusion of such predictors, I decided to keep them in my final model. Similarly, with the incorporation of polynomial features, multicollinearity is expected, but again, the inclusion of these features decreased the error of my final model.
+
+Additionally, some of the predictors in my models are inherently related such as latitude, longitude, and various zip codes as well as the square footage of the whole house and the square footage of the house above ground (i.e. not including the basement)
+
+Nevertheless, multicollinearity is a violation of one of the 4 assumptions of linear regression, and therefore, it is crucial to proceed with caution when drawing conclusions on the basis of these predictors.
 
 ### Checking for Normality of Residuals
 ![qq_plot.png](https://github.com/jordanate/phase-2-project/blob/main/images/qq-plot.png)
@@ -118,7 +126,17 @@ This Q-Q plot indicates that the residuals are normally distributed, and thus, t
 
 This residual plot indicates that overall the residuals are homoscedastic (i.e. the relationship appears linear and for the most part, there is no fanning of the points). Nevertheless, it is significant to note that as the price predictions increase past the price of around 850,000 USD, the points begin to fan out indicating a potential problem. Therefore, when the model predicts a price larger than 850,000 USD, it is important to take into account this short-coming of the model.
 
-### Interpreting Strong Predictors
+### Interpreting Strong Predictors of Price
+
+#### Waterfront (predictor name: 'waterfront_YES)
+
+Compared to houses that are not on a waterfront, we see an associated increase of about 67.37% in price for houses that are on a waterfront.
+
+#### Latitude and Longitude (predictor names: 'lat' and 'long)
+
+For every increase in 1 standard deviation of latitude, price increases by 22%. Similarly, for every increase in 1 standard deviation of longitude, price decreases by 19.14%.
+
+Note: Increase latitude means going more north, and increase in longitude means going more east. Therefore, the most expensive houses should be in the northwest of King County and the least expensive houses should be in the southeast of King County.
 
 ## Conclusions
 
@@ -157,7 +175,9 @@ While all of these prices are still under $250,000 when adding the error, the sa
 
 ### Limitations
 
-A major limitation of my model is the **recency of data**. As I mentioned, the data in this project comes from house sales in King County, Washington from 2014-2015. Therefore, my model is missing 7 to 8 years of information in regard to the evolution of real estate. Furthermore, COVID-19 had major impacts on real estate trends, but unfortunately, such patterns cannot be represented through my model. If possible, I would like to access more recent information about house sales in King County, Washington to improve my model.
+* A major limitation of my model is the **recency of data**. As I mentioned, the data in this project comes from house sales in King County, Washington from 2014-2015. Therefore, my model is missing 7 to 8 years of information in regard to the evolution of real estate. Furthermore, COVID-19 had major impacts on real estate trends, but unfortunately, such patterns cannot be represented through my model. If possible, I would like to access more recent information about house sales in King County, Washington to improve my model.
+
+* As mentioned earlier, two other issues with my models are that there is some multicollinearity between predictors in my model as well as heteroscedasticity with higher price predictions.
 
 ### Next Steps
 
