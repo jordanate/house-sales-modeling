@@ -56,7 +56,8 @@ Includes only the continuous and discrete numerical values:
 
 ### Final Model
 
-The final model, Model 7, includes existing columns from the original dataset as well as new/encoded columns:                                         
+The final model, Model 7, includes existing columns from the original dataset as well as new columns, encoded columns, and polynomial features:           
+
 
 **Existing columns**:                                                       
 * 'bedrooms' 
@@ -83,7 +84,12 @@ The final model, Model 7, includes existing columns from the original dataset as
 **Ordinal Encoded columns**:                            
 * 'view' which ranks the quality of the view on a 0-4 scale                 
 * 'grade' which ranks the overall grade of the house on a 0-7 scale             
-* 'condition' which ranks the overall condition of the house on a 0-4 scale               
+* 'condition' which ranks the overall condition of the house on a 0-4 scale
+
+**Polynomial Features**:
+* 'bedroom sqft_living'
+* 'sqft_above yr_built'
+* 'sqft_basement yr_built'
 
 #### Metrics
 * **Adjusted R-squared**: 85.51%
@@ -110,7 +116,7 @@ The regression plot shows an overall linear relationship between the true price 
 
 To check for multicollinearity, I use VIF (Variance Inflation Factor). When using VIF, the general rule is that a value of 5 or higher indicates that multicollinearity with the given variable exists. 
 
-After creating a table of VIF values, I find that 49 of the 99 features in the final model have a VIF value of > 5, which indicates that for each of these variables, multicollinearity with another variable(s) exists. While this is problematic, it is important to note that I was aware of some of the high correlations between predictors in my model (as seen in Model 2), but due to the decreased error that occurred with the inclusion of such predictors, I decided to keep them in my final model. Similarly, with the incorporation of polynomial features, multicollinearity is expected, but again, the inclusion of these features decreased the error of my final model.
+After creating a table of VIF values, I find that 49 of the 99 features in the final model have a VIF value of > 5, which indicates that for each of these variables, multicollinearity with another variable(s) exists. While this is problematic, it is important to note that I was aware of some of the high correlations between predictors in my model (as seen in Model 2 in my project notebook), but due to the decreased error that occurred with the inclusion of such predictors, I decided to keep them in my final model. Similarly, with the incorporation of polynomial features, multicollinearity is expected, but again, the inclusion of these features decreased the error of my final model.
 
 Additionally, some of the predictors in my models are inherently related, such as latitude, longitude, and various zip codes, as well as the square footage of the whole house and the square footage of the house above ground (i.e., not including the basement)
 
