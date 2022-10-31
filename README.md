@@ -202,6 +202,6 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ```
 ├── README.md                           
 ├── phase-2-project-notebook.ipynb   
-├── Phase 2 Project Presentation.pdf         
+├── presentation.pdf         
 ├── data                                
 └── images    
