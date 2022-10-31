@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project analyzes existing data about house sales in King County, Washington, from 2014 - 2015 in order to develop a predictive model that can aid a stakeholder in determining what zip code they should buy a house in based on their budget and criteria for their new home. The dataset used in this project includes information about various aspects of a home, such as the number of bedrooms, zip code, and square footage. After utilizing the process of exploratory data analysis, I create multiple linear regression models to eventually reach the model with the lowest error. Finally, I provide three zip codes for the stakeholder that best fit their preferences for their home, along with the respective predicted prices.
+This project analyzes existing data about house sales in King County, Washington, from 2014 - 2015 in order to develop a predictive model that can aid a stakeholder in determining what zip code they should buy a house in based on their budget and preferences for their new home. The dataset used in this project includes information about various aspects of a home, such as the number of bedrooms, zip code, and square footage. After utilizing the process of exploratory data analysis, I create several linear regression models to eventually reach the model with the lowest error. Finally, I present the stakeholder with three zip codes and the respective predicted prices - all of which fall within the given budget - using the criteria they provided.
 
 ## Business Problem
 
@@ -181,7 +181,7 @@ While all of these prices are still under $250,000 when adding the error, the sa
 
 ### Limitations
 
-* A major limitation of my model is the **recency of data**. As I mentioned, the data in this project comes from house sales in King County, Washington, from 2014-2015. Therefore, my model is missing 7 to 8 years of information in regard to the evolution of real estate. Furthermore, COVID-19 had major impacts on real estate trends, but unfortunately, such patterns cannot be represented through my model. If possible, I would like to access more recent information about house sales in King County, Washington, to improve my model.
+* A major limitation of my model is the **recency of data**. As I mentioned, the data in this project comes from house sales in King County, Washington, from 2014-2015. Therefore, my model is missing 7 to 8 years of information in regard to the evolution of real estate. Furthermore, COVID-19 had significant impacts on real estate trends, but unfortunately, such patterns cannot be represented through my model. If possible, I would like to access more recent information about house sales in King County, Washington, to improve my model.
 
 * As mentioned earlier, two other issues with my models are that there is some multicollinearity between predictors in my model as well as heteroscedasticity with higher price predictions.
 
