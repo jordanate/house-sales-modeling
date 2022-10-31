@@ -20,7 +20,7 @@ The data that I use for my projects comes from a dataset from Kaggle about King 
 
 ## Modeling
 
-After doing some data cleaning, I perform a 70%-30% Train-Test Split on the data with price as the target variable and all other variables as the predictors. Next, I create multiple linear regression models. 
+After doing some data cleaning, I perform a 70%-30% Train-Test Split on the data with price as the target variable and all other variables as the predictors. Next, I create several linear regression models. 
 
 The process that I use to reach my final model involves the following steps:
 * Making categorical columns more interpretable (ex: date, zip code, condition) through One Hot Encoding and Ordinal Encoding
