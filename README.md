@@ -138,7 +138,7 @@ _Note_: The graph above does not depict an _exact_ 67.37% increase.
 
 #### Latitude and Longitude (predictor names: 'lat' and 'long)
 
-For every increase in 1 standard deviation of latitude, price increases by 22%. Similarly, for every increase in 1 standard deviation of longitude, price decreases by 19.14%.
+For every increase in 1 standard deviation of latitude, the price increases by 22%. Similarly, for every increase in 1 standard deviation of longitude, the price decreases by 19.14%.
 
 ![price_x_lat-long.png](https://github.com/jordanate/phase-2-project/blob/main/images/price_x_lat-long.png)
 
