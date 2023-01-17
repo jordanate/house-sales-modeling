@@ -1,4 +1,4 @@
-# Phase 2 Project
+# House Price Analysis in King County, Washington
 
 ![king_county_.jpg](https://github.com/jordanate/phase-2-project/blob/main/images/king_county_.jpg)
 
