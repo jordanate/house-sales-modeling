@@ -210,6 +210,6 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ├── images 
 ├── .gitignore 
 ├── README.md                           
-├── phase-2-project-notebook.ipynb   
-├── presentation.pdf                                        
-└──    
+├── house-sales-modeling.ipynb   
+└── presentation.pdf                                        
+   
