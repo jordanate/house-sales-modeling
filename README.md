@@ -208,8 +208,8 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ```
 ├── data
 ├── images 
+├── .gitignore 
 ├── README.md                           
 ├── phase-2-project-notebook.ipynb   
-├── presentation.pdf         
-├── data                                
+├── presentation.pdf                                        
 └──    
